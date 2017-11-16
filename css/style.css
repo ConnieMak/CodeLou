@@ -1,0 +1,179 @@
+/***  Heading  ***/
+
+h1 {
+    color: green;
+    text-align: center;
+    font-family: cursive;
+    font-size: 2em;
+   
+}
+
+
+/***  Navigation bar  ***/
+
+.nav-bar {
+    overflow: auto;
+}
+
+
+.nav-bar li {
+    background-color: black;
+    overflow: hidden;
+    list-style-type: none;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 40px;
+    
+}
+
+/***  Hover color  ***/
+
+.nav-bar a:hover {
+background-color: pink;
+color: red;
+}
+
+
+
+/***  Active/Current link  ***/
+
+/***  Body  ***/
+
+
+body {
+    color: #2427DB;
+    background: url('../img/pics/myBoys..JPG');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: #000000;
+}
+
+/***  About page  ***/
+
+/*** Pictures  ***/
+
+<style>
+div.gallery {
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    float: left;
+    width: 100%;
+    max-width: 600px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+
+
+/* Accordian Styles */
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: beige;
+    display: none;
+}
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+footer {
+    font-family: cursive;
+    font-size: 2em;
+        color: green;
+        text-align: center;
+        position: bottom;
+}
+
+/***  Media Queries  ***/
+
+@media (max-width: 480px){
+    p {
+        background-color: purple;
+    }
+    
+    h1 {
+        color: white;
+    }
+
+    footer {
+        color: white;
+    }
+
+    .nav-bar a {
+        float: right;
+    }
+
+}   
